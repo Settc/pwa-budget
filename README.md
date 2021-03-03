@@ -1,5 +1,5 @@
 # Fitness Tracker
-https://radiant-fjord26358.herokuapp.com/
+https://radiant-fjord-26358.herokuapp.com/
 https://github.com/Settc/fitness-tracker
 
 ## Description
