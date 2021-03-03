@@ -7,7 +7,7 @@ https://github.com/Settc/fitness-tracker
     This app tracks your deposits and withdrawals from your bank account, and displays a graph
 to show change over time.
     
-![Screenshot](/public/assets/images/Screenshot.png)
+![Screenshot](/public/assets/Screenshot.png)
 ## Table of Contents
 
 * [Installation](#Installation)
