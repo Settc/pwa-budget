@@ -1,9 +1,9 @@
 let db
-let dbReq = indexedDB.open("budgetDB", 1)
+const dbReq = indexedDB.open("budget", 1)
 
 dbReq.onupgradeneeded = (event) => {
    
-    let db = event.target.result
+    const db = event.target.result
 
     db.createObjectStore("pending", { autoIncrement: true })
 
@@ -16,7 +16,7 @@ dbReq.onsuccess = (event) => {
     if (navigator.onLine) {
         checkDatabase()
     }
-
+   
 }
 
 
@@ -45,7 +45,7 @@ function checkDatabase() {
     
     const getAll = store.getAll()
 
-    getAll.onsuccess = () => {
+    getAll.onsuccess = function() {
 
         if (getAll.result.length > 0) {
             fetch("/api/transaction/bulk", {

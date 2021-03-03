@@ -48,7 +48,7 @@ self.addEventListener('install', (event) => {
             return cachedResponse;
           }
   
-          return caches.open(DATA_CACHE_NAME).then((cache) => {
+          return caches.open(CACHE_NAME).then((cache) => {
             return fetch(event.request).then((response) => {
               return cache.put(event.request, response.clone()).then(() => {
                 return response;
