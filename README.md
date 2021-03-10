@@ -1,6 +1,6 @@
-# Fitness Tracker
+# Progressive Web App Budget Tracker
 https://radiant-fjord-26358.herokuapp.com/
-https://github.com/Settc/fitness-tracker
+https://github.com/Settc/pwa-budget
 
 ## Description
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
